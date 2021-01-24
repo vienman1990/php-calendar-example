@@ -1,0 +1,14 @@
+table {
+  min-width: 350px;
+  border-collapse: collapse; }
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px 5px; }
+  table td.month-before, table td.month-after {
+    opacity: 0.3; }
+  table td.current span {
+    padding: 4px;
+    background: #ccc;
+    border-radius: 50%; }
