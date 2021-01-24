@@ -8,7 +8,7 @@ Include Class
 
 Show Calendar
 
-    $calendar = new Month($i, 2021);
+    $calendar = new Month(1, 2021);
     echo $calendar->get_calendar();
 
 Done.
